@@ -37,6 +37,9 @@ def restore():
     return target
 
 app_root = restore()
+from territory_patch import install as install_territories
+with install_lock():
+    install_territories(app_root, BASE / "territory_patch.json")
 if str(app_root) not in sys.path:
     sys.path.insert(0, str(app_root))
 from g93 import ui
