@@ -39,4 +39,7 @@ def restore():
 app_root = restore()
 if str(app_root) not in sys.path:
     sys.path.insert(0, str(app_root))
+from g93 import ui
+# Keep one read-only base frame across sessions instead of serialized copies.
+ui.load = st.cache_resource(show_spinner=False)(ui.load.__wrapped__)
 runpy.run_path(str(app_root / 'app.py'), run_name='__main__')
