@@ -18,7 +18,9 @@ def install(root,payload_path):
     state=json.loads(pointer.read_text(encoding='utf8'))
     if state.get('territory_patch')==version:return
     old=root/'data'/state['database'].replace('\\','/')
-    if digest(old)!=patch['base_sha256']:raise ValueError('Unexpected base database for territory correction')
+    if digest(old)!=patch['base_sha256']:
+        old=root/'data/processed'/(patch['base_run_id']+'.duckdb')
+        if not old.exists() or digest(old)!=patch['base_sha256']:raise ValueError('Unexpected base database for territory correction')
     fields=patch['fields'];rows=patch['patches']
     target=root/'data/processed'/(patch['run_id']+'.duckdb')
     temp=target.with_suffix('.preparing.duckdb')
