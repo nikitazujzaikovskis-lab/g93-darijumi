@@ -2,7 +2,7 @@
 
 Streamlit application for analysing public Latvian property transaction data.
 Source: Valsts zemes dienests (VZD), data.gov.lv, CC BY 4.0.
-Snapshot: 2026-09-16, including verified territorial corrections.
+Snapshot: 2026-09-19, including verified territorial corrections and transactions from 2012 onward.
 
 Entry point: `streamlit_app.py`, Python 3.12.
 The snapshot and application sources are in the numbered archive parts;

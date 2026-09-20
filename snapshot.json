@@ -1,260 +1,240 @@
 {
   "parts": [
     {
-      "name": "application.part000",
-      "sha256": "9e5a5b6b2c16af49f4581d016bd7edc0fb59794919bae780776caeb854ce2452"
+      "name": "release20260920.part000",
+      "sha256": "4694415dee2dc31447a70cb3164f444cfb83d16aa50888bfea62cf5760682ed8"
     },
     {
-      "name": "application.part001",
-      "sha256": "fa5d45c63b1dc979d46d6f0f64dabef76dcf4cc79b9c04fa1113dd3eb169239a"
+      "name": "release20260920.part001",
+      "sha256": "c9877fd8d68097e2ca73511118123901a0df3b348541b80611b0b319bfe89056"
     },
     {
-      "name": "application.part002",
-      "sha256": "9509aa9e3ddf71165f91f6721b85b2f80af716c0101da48db256b3eed2b73dee"
+      "name": "release20260920.part002",
+      "sha256": "281ee3d26f219edadcd658dbc4f996282539bcab48d0dd3986feded28952551a"
     },
     {
-      "name": "application.part003",
-      "sha256": "4ad0678b1d3bf4170e7ba8f7b45c77b2d08abb00104010196909422d71962b17"
+      "name": "release20260920.part003",
+      "sha256": "85fba0181732789f956545eb9605b21d7e54307e305aedde8b7685d41b750f5e"
     },
     {
-      "name": "application.part004",
-      "sha256": "6b4135657924b289f2d747b68acf82b9a3fcfd7552b55a88ca15b42578a640cf"
+      "name": "release20260920.part004",
+      "sha256": "40cf73e72d09526d02cf9a77fdf26c013159261366e3f897cfaa88edbb7c023d"
     },
     {
-      "name": "application.part005",
-      "sha256": "dd667b805be1ff74c584549c7d93e3e3e5fac2c8d0dad321728d3b9e94a64ec0"
+      "name": "release20260920.part005",
+      "sha256": "abc7d06e20a2a04086b22644aca84e03a319c63a0904844ffc5bd96a3801846c"
     },
     {
-      "name": "application.part006",
-      "sha256": "098a5c11633a6b8c377a6b1891ca65f9e9c50ef0bc7ab30ba1dfffc1a7ac9e75"
+      "name": "release20260920.part006",
+      "sha256": "2495707789103b879d854c06ce161da7e4f28281ca9ad934d70c2c1742ed87a1"
     },
     {
-      "name": "application.part007",
-      "sha256": "0279f0d5fe7a6ad62a5f3ef295da0de9c1623bb14518aa87ac6de34185a3d8d3"
+      "name": "release20260920.part007",
+      "sha256": "9ccebea653b8a9124f96e47fd655158d2d8135976ad961593088389c56bb80ab"
     },
     {
-      "name": "application.part008",
-      "sha256": "2b392cc6d54d07d353144bc53550931d0d0447d2c7c72de1e06190354b10e302"
+      "name": "release20260920.part008",
+      "sha256": "ca23ee8f524719341fcae509d7f15c4f1dddeb08bd3136a8edbea54686fe5d66"
     },
     {
-      "name": "application.part009",
-      "sha256": "a51d0d893345bc1b8d0e294729b1e770625690aac22847f40eef60b2dca0f85e"
+      "name": "release20260920.part009",
+      "sha256": "6d29bc647f880100db07daadad2511808c8425f537147ad39525c21e3a54d910"
     },
     {
-      "name": "application.part010",
-      "sha256": "f86ce98a51f69e94df258886c8a987c3de5356da667060b4f6d103d7ba7f3b5e"
+      "name": "release20260920.part010",
+      "sha256": "a26fe9fe44da7496e8f67246a16e1c167d416741245346db737e956767bda4b0"
     },
     {
-      "name": "application.part011",
-      "sha256": "d6f3ccf88e6091ef7dfcc09cd34f254cd3cce63afa0f9fcce1f9044b04a9bc38"
+      "name": "release20260920.part011",
+      "sha256": "d9bf0eeb38dd79e6462ec6aca6048ccbbefcb5c02a12e0d7887baae8f9d2ada4"
     },
     {
-      "name": "application.part012",
-      "sha256": "2bd2703b9c78d1ec4ccf7f55eca959461f17002d2f1c786e18a8487eb13d8bec"
+      "name": "release20260920.part012",
+      "sha256": "4e54188588530f4322929d27dda473e2920912374557fcd9bd62da1dc85b45a1"
     },
     {
-      "name": "application.part013",
-      "sha256": "4478a2bd0646bc62c397e7efa0aafcac2a820ef108211e113a5be17920bcb647"
+      "name": "release20260920.part013",
+      "sha256": "fdfc55986d4d922767aeadea2166479a950614f2f3b54ee27b74e8ccd42e7456"
     },
     {
-      "name": "application.part014",
-      "sha256": "70ba3003f34cd651ddffe36b02ef51778c15633da596dace39c996e46bb00e05"
+      "name": "release20260920.part014",
+      "sha256": "7b1fcddf1cd5cd2c81fbb0ad5d8ffdb8ff676ee9ba032c8ac5f687ab8c138a4c"
     },
     {
-      "name": "application.part015",
-      "sha256": "891dc360baeb37a99ea944dcec93ebce8e1482a188432a5944cd4aa4d71918b0"
+      "name": "release20260920.part015",
+      "sha256": "d3ab2aba5666532efd5d8b1df530b7ba24c4847a1e2c22fafb13bc343022989d"
     },
     {
-      "name": "application.part016",
-      "sha256": "43516819ed3f42bb3f763453cd3714d356a98dcfed200251df76446d155ded1f"
+      "name": "release20260920.part016",
+      "sha256": "e12934255573f3e8b49278653dd268be990006dcc1ff745526b5bae125c5431e"
     },
     {
-      "name": "application.part017",
-      "sha256": "8b0280fe8711bf1b0ce059778cf1e78c039dbe55e1581bcb1e94a6430e8cdb6d"
+      "name": "release20260920.part017",
+      "sha256": "2dd005fd6ae9a8183b668fd65ce676f0667cefc4435c5c4aa7ddcc5784869a73"
     },
     {
-      "name": "application.part018",
-      "sha256": "40311a5a3f098de6fc35598478256fb933727bcbe42f55905c533dcce3fb35c9"
+      "name": "release20260920.part018",
+      "sha256": "63b31a0058d6c0ed895bbe47a105b8b2e47e1bde6a27f51eb6b941f4d3033281"
     },
     {
-      "name": "application.part019",
-      "sha256": "82652188e49245721f8cdfd8bff25bce4861bc300fb04e2dd2eb57768efa1a36"
+      "name": "release20260920.part019",
+      "sha256": "50afd4f930437a00e5e1f30c6cfc82a670d62f7a74cd3a3acd9a28b059dfb369"
     },
     {
-      "name": "application.part020",
-      "sha256": "960183291de0dcde701c4ff4fb5fbdd55fa080f10e3196499de4ab044daad450"
+      "name": "release20260920.part020",
+      "sha256": "7d413427b7edf919f74483eb508513a8d2a88fa49a44256f99f0df1975ef3c82"
     },
     {
-      "name": "application.part021",
-      "sha256": "07b7413d011addde80951dbc209deac6ca10780fbedb7d9f4a026fe48101d704"
+      "name": "release20260920.part021",
+      "sha256": "e2d55f6e52702bedd5e714c435350e5479483816a3940d96ee3f110ee59b7ab6"
     },
     {
-      "name": "application.part022",
-      "sha256": "625035776cc7ff048287a6e37f1d57cbd7beba91d446e82c880d77a6127075ec"
+      "name": "release20260920.part022",
+      "sha256": "d2c256f0ccdfef806b65e88ec223c204a5a00fb68f4a936e9433d7d2400f6ed4"
     },
     {
-      "name": "application.part023",
-      "sha256": "529c108db7ef94e882facdebbc12e46e6d7c10ac5fd43b11f93be4d560f345b5"
+      "name": "release20260920.part023",
+      "sha256": "ec6949488e4ce42ce996bcdbaf46a24374ccd4aa88cfff6c3e9df729cdcf23e7"
     },
     {
-      "name": "application.part024",
-      "sha256": "25c0f33c10e72aacc8823099510827dc2c6f727dc6276e1b3fdd66a8798b7853"
+      "name": "release20260920.part024",
+      "sha256": "db747bf2abf75ef37b2c7915bd4a7b91125aea477757c62fb15550f4cd2716bf"
     },
     {
-      "name": "application.part025",
-      "sha256": "983b1288ba5c3d0af1362410b798d7962fff432c22dc5864097910aee81c3e4f"
+      "name": "release20260920.part025",
+      "sha256": "59007a31fe00b0edf43bdccec7ec9b5b906edf507b35ab86ef2524b369e50261"
     },
     {
-      "name": "application.part026",
-      "sha256": "2fc0d96baf5f870dd8066608c32510f247401de48f9ab72e0b3b22c3fa1f5d04"
+      "name": "release20260920.part026",
+      "sha256": "5574803325091f0f7318241b1b83ec5a37e8348601f420215934c0c19783392a"
     },
     {
-      "name": "application.part027",
-      "sha256": "54bfe8b5bee1cace74b66ebb42492c319b3f750d9b977471ff91b46c2faec3e7"
+      "name": "release20260920.part027",
+      "sha256": "02a925b0f426c0d6d5bf1903809d07147b2079ac630da079e96d73213b9e427c"
     },
     {
-      "name": "application.part028",
-      "sha256": "89ffebb3501a95748066d6fc16339678a2ddfa2187b7f5c7bfe943310f7853cb"
+      "name": "release20260920.part028",
+      "sha256": "9e294110302d82a601c993376e0b6c2c86e45c30bf4fbec4d239953b496f0bd5"
     },
     {
-      "name": "application.part029",
-      "sha256": "f3541750a3f6c147fdfc4cdc6fae0c08f1f76b3a3d348ab98cceb7dbe4d502de"
+      "name": "release20260920.part029",
+      "sha256": "f83d5f27e926bddc15361328b848500b51a5779040b1485071794954d155fd05"
     },
     {
-      "name": "application.part030",
-      "sha256": "65154f4ae0ac5fcbca7f41711c8537673079356af80c6fdcb1e791d94d4d46a0"
+      "name": "release20260920.part030",
+      "sha256": "2eede72150051e6cdd0d2f4e2bf2eec7d584109b63806429ad9670c21f023cb8"
     },
     {
-      "name": "application.part031",
-      "sha256": "19c75bba5cc2a996f8f7d99b22f4628919a24368396f34328d0469be4c182b7c"
+      "name": "release20260920.part031",
+      "sha256": "53da80cc8501852bcce4f53a96fd7985237025e6368b1074dc653bd9588401c8"
     },
     {
-      "name": "application.part032",
-      "sha256": "0b6a955f54edc82cfa1531c7876139837089201611eac9b82bd2480c419e8ee9"
+      "name": "release20260920.part032",
+      "sha256": "d75a931668352f0c6351b166c868f4e18a93b2ed42dc11641ed2346711d0b776"
     },
     {
-      "name": "application.part033",
-      "sha256": "328cb53d9b4f6c8b68044fe3d226e35a1260c224b8ac14c1bf3670612af39a51"
+      "name": "release20260920.part033",
+      "sha256": "58f94885f35ab14a15d5afaf0a478160926c39d8a0a6e0d1ee8c878cfe48e5a9"
     },
     {
-      "name": "application.part034",
-      "sha256": "858bd16c270dad5580923aca8f0619185c22e263cda489fd2ae4be919c03802f"
+      "name": "release20260920.part034",
+      "sha256": "af2a72264f55a17eea5409e2cbd7fc3092a2f587a6f53435d08eabaf21f276ad"
     },
     {
-      "name": "application.part035",
-      "sha256": "83d0fe20f76338b4b04935faef6397b40d0bd10c5fe6282a0616e5192dd6996b"
+      "name": "release20260920.part035",
+      "sha256": "4f073d01f745d9e304820100bb9edaeaf6d101db370b2bc54a7b4f10ce98efcf"
     },
     {
-      "name": "application.part036",
-      "sha256": "223d29c0ca5700ac9894f704b667b90d0eb153271ff31c1c898f5cda67012ea1"
+      "name": "release20260920.part036",
+      "sha256": "8257644727bd6a7c1fb030152963fb3454c7da32f95ebea9fa816bea06611808"
     },
     {
-      "name": "application.part037",
-      "sha256": "c676f5d7eb6dca06a8509bd07ba02f20f49c6239d4ac52a05307da99dcecf3b4"
+      "name": "release20260920.part037",
+      "sha256": "709d6f41275484ab813c07678b078f30931200d55be9ecff70c94f56c064663f"
     },
     {
-      "name": "application.part038",
-      "sha256": "536bb51948f45b3b0030d1d6adc44250f55ff7e59b75fdaac4c7761993e0f24b"
+      "name": "release20260920.part038",
+      "sha256": "7dc04b9602c1be243e346ef49964b65a195da5079f99810ef6982bde2645331e"
     },
     {
-      "name": "application.part039",
-      "sha256": "4ed421d6da1d5bf943a71b99d6483aa492ff1d82700b736df36bfa636182bd55"
+      "name": "release20260920.part039",
+      "sha256": "bcb885caa8091b440d5c0c53bc65c4482bb31b35b5aad6d34478a6cbe7b5719d"
     },
     {
-      "name": "application.part040",
-      "sha256": "448c9c26ee0d88947c7392eeddbc30e5648ca428e207dc205db9a45d2a43ac11"
+      "name": "release20260920.part040",
+      "sha256": "4f06b37a135d0f33b0541d5eb1481ffc0b5af7aee1dc7eb9c1f5efa97bd73341"
     },
     {
-      "name": "application.part041",
-      "sha256": "170e2c80deacd014beafbebd7c64fc7c8be317a83dcdc0176153878df8046e43"
+      "name": "release20260920.part041",
+      "sha256": "4697e2b0dc03b86158e359d25cb16ef3d0410cbaf12c2b7946b6ad8d4a1b564b"
     },
     {
-      "name": "application.part042",
-      "sha256": "b4c7af415ce73cb2183c11048b415a63292fa3d5b2f5bf7c7e7fa3cbd41efac7"
+      "name": "release20260920.part042",
+      "sha256": "a43ae2aa9c85b46f66d73675a1868c8c222156d27e25e3b51e88172c2cdbb92d"
     },
     {
-      "name": "application.part043",
-      "sha256": "623b3c9f1a87d9411a4fefefd799b116cc230a3d967b05611204bcecf5384df2"
+      "name": "release20260920.part043",
+      "sha256": "01177faeac8cf757a7dfb10c364eeae89b027b9edec6631fbb49e3933dc4d709"
     },
     {
-      "name": "application.part044",
-      "sha256": "bee9115ed80825a87fc48009477a2547a1610edf173f46edeb925412dfd02eed"
+      "name": "release20260920.part044",
+      "sha256": "23feddadd3fe03d0709b98ff79022bc47884814cb05b084e142df1b28342e9ec"
     },
     {
-      "name": "application.part045",
-      "sha256": "bcc6ce1d9c99e0b0885d7a4f737bfa74d312dc2d623a52808f36b602457e3a3f"
+      "name": "release20260920.part045",
+      "sha256": "f9905724326118f7cbd106febc73be5c88dfcbb04a3f391bad52e884c6359c0f"
     },
     {
-      "name": "application.part046",
-      "sha256": "6932ae3aed4c7dd20a4732885ddd9b774c5a6211e452bb2735163e3e882ccfd2"
+      "name": "release20260920.part046",
+      "sha256": "fd4eb4bab6a97d9c802646fe51319805111be843b61d26c0af6e9fa22bce7408"
     },
     {
-      "name": "application.part047",
-      "sha256": "92cd0ef9d0cd021680fda7c1438661d5b6d40a87c8039d91a1120c53134e3ed9"
+      "name": "release20260920.part047",
+      "sha256": "00f77227647400c089bdbe44c4c20ba369c35c4fe319698d0bbcf7c752400546"
     },
     {
-      "name": "application.part048",
-      "sha256": "c86c144b88c64f46065aed0cac242f9d76e6ee59e9809b9e56f33da90b964dbd"
+      "name": "release20260920.part048",
+      "sha256": "2ba127d743dd88777c791dd8ed0cd969cb8598a0cfe00b218ec757e0d7ca5fef"
     },
     {
-      "name": "application.part049",
-      "sha256": "74adbb829eaddd0d17422fdd0713491bf036cad4b821c549ad34b1bbc2958b19"
+      "name": "release20260920.part049",
+      "sha256": "63bc5d90b9bc531f5396afd8de164521eeb0a3ec2d2bccafe91e9a31c798f6e7"
     },
     {
-      "name": "application.part050",
-      "sha256": "10097dab754d48bc00f5c83355454f2f5b249796a7f2ccd9c7b2366706edc900"
+      "name": "release20260920.part050",
+      "sha256": "00da60e79fda770cd703f1061d0f7038f2bce51613c59d77fba146828185da60"
     },
     {
-      "name": "application.part051",
-      "sha256": "9fd4591633bd9c821e5e5f3aac038d00fc47614ee2e48b9522e320c4c131a94e"
+      "name": "release20260920.part051",
+      "sha256": "42b4d21c52a12da8decf906aca62be63f353c91bdffd002bf802eeb76b730a53"
     },
     {
-      "name": "application.part052",
-      "sha256": "5fb533c6bbc47ce7023e949f1ce931b5588cfbf56d5f63d1f1311f6d6d9ea773"
+      "name": "release20260920.part052",
+      "sha256": "0dc235b239301af1abd72d46fd23e05ca607351b15c0aeff4a1090506aee48c6"
     },
     {
-      "name": "application.part053",
-      "sha256": "48e20d0f596cb7608a718787e22ba7c0ca990d5fb068b1feacd83cc5e291020c"
+      "name": "release20260920.part053",
+      "sha256": "d4f3645cd80e20ca494bbfb12dae29df454f93b15afef9d5d499a3c626b49c70"
     },
     {
-      "name": "application.part054",
-      "sha256": "08aa6098279a7695d6af81de406b3a733c04ace91079e2caf98a0c401da240d0"
+      "name": "release20260920.part054",
+      "sha256": "8c8dbe65af07e73b5524345e375335067ddab8f30738c9d92cfebd88b6b18606"
     },
     {
-      "name": "application.part055",
-      "sha256": "01034064c6c86e539c7b65a8d2d164de5550ce08df7bb8960dc2d7223551fa51"
+      "name": "release20260920.part055",
+      "sha256": "82400c3f46b39c0dba004415876685285e77ebe04f485583d49e71068b9416fa"
     },
     {
-      "name": "application.part056",
-      "sha256": "0e36e82f5fe1ae9adaaa7200c5608cc8c57117bdba57812820437bc3adb13e23"
+      "name": "release20260920.part056",
+      "sha256": "51a11c786c96052ba0aae523b5cc0ed08d2f170209d0ef56ad897a19672ac3bf"
     },
     {
-      "name": "application.part057",
-      "sha256": "5b4963d88b1856e39891e30cc66bc3aa674a9c60d8dd0fa2a2da98e0758d65f9"
+      "name": "release20260920.part057",
+      "sha256": "c4d04384ec2a5df9decf7c13f4db444582a475234b0b2376a6b4c08ed7d34533"
     },
     {
-      "name": "application.part058",
-      "sha256": "25ed640fa6652cc8190cc7b4d951714b8ab7c4f50bd067e131da6ed5a7d5ae6b"
-    },
-    {
-      "name": "application.part059",
-      "sha256": "da293351b04c3f294076f1d08d1481a4cb20cf221e657cb71f4e21002723fe01"
-    },
-    {
-      "name": "application.part060",
-      "sha256": "f7ce167e0617d798c1c067bc9005d19b8c747920a8c641a2444e7da092280cec"
-    },
-    {
-      "name": "application.part061",
-      "sha256": "efc587eb56a2f4d2af379bb614c38895144357859eeb0b1a792e7de82a16a561"
-    },
-    {
-      "name": "application.part062",
-      "sha256": "9a3a79d070af634ef604fdb579abd735b77df201f1f1cbd2fcae315630e03fd9"
-    },
-    {
-      "name": "application.part063",
-      "sha256": "c2e45fb67eaa719fa5ab0565a6f033e86dfb03b0f9b37e58568c0e2879900fa5"
+      "name": "release20260920.part058",
+      "sha256": "851b082929bc380b5f7596187394b30c48ebcee130f7d74f387a345d3f2351f2"
     }
   ]
 }
