@@ -37,6 +37,14 @@ def restore():
     return target
 
 app_root = restore()
+# Apply small source updates without republishing the data snapshot.
+for relative in ('g93/ui.py', 'g93/analytics.py'):
+    override = BASE / 'source-overrides' / relative
+    if override.is_file():
+        destination = app_root / relative
+        content = override.read_bytes()
+        if destination.read_bytes() != content:
+            destination.write_bytes(content)
 if str(app_root) not in sys.path:
     sys.path.insert(0, str(app_root))
 from g93 import ui
