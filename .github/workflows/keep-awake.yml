@@ -1,0 +1,104 @@
+name: Keep G93 awake
+
+on:
+  schedule:
+    - cron: '17 0,8,16 * * *'
+      timezone: Europe/Riga
+  workflow_dispatch:
+
+# Public website visits need no repository token permissions.
+permissions: {}
+concurrency:
+  group: g93-keep-awake
+  cancel-in-progress: false
+
+jobs:
+  visit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser
+        run: |
+          python -m pip install playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Open G93 and verify the dashboard
+        shell: python
+        run: |
+          import os
+          import re
+          import time
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright, Error
+
+          url = "https://g93-darijumi.streamlit.app/"
+          Path("evidence").mkdir(exist_ok=True)
+          with sync_playwright() as p:
+              browser = p.chromium.launch(headless=True)
+              try:
+                  for attempt in range(1, 4):
+                      context = browser.new_context(viewport={"width": 1440, "height": 1000})
+                      page = context.new_page()
+                      page.set_default_timeout(5000)
+                      try:
+                          print(f"Visit attempt {attempt}: {url}", flush=True)
+                          page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                          deadline = time.monotonic() + 180
+                          ready_frame = None
+                          wake_clicked = False
+                          while time.monotonic() < deadline:
+                              for frame in page.frames:
+                                  try:
+                                      wake = frame.get_by_role("button", name=re.compile(r"Yes, get this app back up", re.I))
+                                      if not wake_clicked and wake.count() and wake.first.is_visible():
+                                          wake.first.click()
+                                          wake_clicked = True
+                                          print("Requested Streamlit wake-up", flush=True)
+                                      heading = frame.get_by_role("heading", name="Zeme", exact=True)
+                                      region = frame.get_by_role("combobox", name="Izvēlies novadu/valstpilsētu", exact=True)
+                                      if heading.is_visible() and region.is_visible():
+                                          ready_frame = frame
+                                          break
+                                  except Error:
+                                      continue
+                              if ready_frame is not None:
+                                  break
+                              page.wait_for_timeout(3000)
+                          if ready_frame is None:
+                              raise RuntimeError("Dashboard did not become ready within 180 seconds")
+                          # Keep a real browser session connected briefly.
+                          page.wait_for_timeout(20000)
+                          if not ready_frame.get_by_role("heading", name="Zeme", exact=True).is_visible():
+                              raise RuntimeError("Dashboard disconnected after loading")
+                          page.screenshot(path="evidence/success.png", full_page=True)
+                          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
+                              summary.write("G93 dashboard loaded successfully in Chromium.\n\n")
+                              summary.write("Schedule: 00:17, 08:17, 16:17 Europe/Riga (including DST).\n")
+                          print("SUCCESS: G93 dashboard is loaded", flush=True)
+                          break
+                      except Exception as exc:
+                          print(f"Attempt {attempt} failed: {exc}", flush=True)
+                          try:
+                              page.screenshot(path=f"evidence/failure-{attempt}.png", full_page=True)
+                          except Error:
+                              pass
+                          if attempt == 3:
+                              raise
+                          time.sleep(15)
+                      finally:
+                          context.close()
+              finally:
+                  browser.close()
+      - name: Save visit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: g93-visit-evidence
+          path: evidence/
+          if-no-files-found: ignore
+          retention-days: 7
+
+# GitHub may delay scheduled runs. In public repositories it disables schedules
+# after 60 days without repository activity; re-enable the workflow if that happens.
